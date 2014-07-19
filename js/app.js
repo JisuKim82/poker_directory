@@ -1,7 +1,15 @@
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', [
+  'ngRoute',
+  'playerControllers'
+]);
 
-app.controller('MyController', ['$scope', '$http', function($scope, $http){
-  $http.get('js/data.json').success(function(data){
-    $scope.players = data;
+app.config(['$routeProvider', function($routeProvider){
+  $routeProvider.
+  when('/list', {
+    templateUrl: 'partials/list.html',
+    controller: 'ListController'
+  }).
+  otherwise({
+    redirectTo: '/list'
   });
 }]);
