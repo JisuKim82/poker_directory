@@ -8,10 +8,14 @@
   <ul class="artistlist">
     <!-- sort by highest ability and then name -->
     <li class="artist cf" ng-repeat="player in players | orderBy:['-ability', 'name'] | filter:keyword">
-      <div class="info">
-        <h2>{{player.name}}</h2>
-        <h3>Ability: {{player.ability}}</h3>
-      </div>
+      <!-- link to details -->
+      <a href="#/details/{{players.indexOf(player)}}">
+        <div class="info">
+          <h2>{{player.name}}</h2>
+          <h3>Ability: {{player.ability}}</h3>
+        </div>
+      </a>
+      <!-- end link -->
     </li>
   </ul>
 </section>
