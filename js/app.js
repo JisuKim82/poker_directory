@@ -1,9 +1,7 @@
 var app = angular.module('myApp', []);
 
-app.controller('MyController', function($scope){
-  $scope.player = {
-    name: 'Phily Ivey',
-    winnings: 20000000,
-    ability: 9
-  }
+app.controller('MyController', function($scope, $http){
+  $http.get('js/data.json').success(function(data){
+    $scope.players = data;
+  });
 });
