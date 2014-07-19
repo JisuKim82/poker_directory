@@ -1,0 +1,37 @@
+[
+  {
+    "name":"Phily Ivey",
+    "winnings":"20000000",
+    "ability":"9"
+  },
+  {
+    "name":"Greg Merson",
+    "winnings":"20000000",
+    "ability":"9"
+  },
+  {
+    "name":"Phil Helmuth",
+    "winnings":"20000000",
+    "ability":"9"
+  },
+  {
+    "name":"Daniel Negraneu",
+    "winnings":"20000000",
+    "ability":"9"
+  },
+  {
+    "name":"Jamie Gold",
+    "winnings":"1",
+    "ability":"1"
+  },
+  {
+    "name":"Eugene Katchalav",
+    "winnings":"20000000",
+    "ability":"9"
+  },
+  {
+    "name":"Johnny Chan",
+    "winnings":"20000000",
+    "ability":"9"
+  }
+]
