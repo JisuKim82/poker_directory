@@ -17,3 +17,12 @@ app.config(['$routeProvider', function($routeProvider){
     redirectTo: '/list'
   });
 }]);
+
+// build custom filter for slug(downcase name and replace space with underscore)
+app.filter('slug', function(){
+  return function(input){
+    if(input){
+      return input.toLowerCase().replace(' ','_');
+    }
+  };
+});
