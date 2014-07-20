@@ -6,8 +6,10 @@
   <div class='artist cf'>
     <h1>{{players[whichPlayer].name}}</h1>
     <div class='info'>
+      <img ng-src="img/{{players[whichPlayer].name | slug}}.jpg">
       <h3>Ability : {{players[whichPlayer].ability}}</h3>
       <h3>Career Winnings: {{players[whichPlayer].winnings | currency}}</h3>
+      <h3>{{players[whichPlayer].bio}}</h3>
     </div>
   </div>
   <a href='index.html'> Back to search</a>

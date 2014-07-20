@@ -5,14 +5,16 @@
     <input ng-model="keyword" placeholder='Search for players' autofocus></input>
   </div>
 
-  <ul class="artistlist">
+  <ul class="artistlist" ng-show='keyword'>
     <!-- sort by highest ability and then name -->
     <li class="artist cf" ng-repeat="player in players | orderBy:['-ability', 'name'] | filter:keyword">
       <!-- link to details -->
       <a href="#/details/{{players.indexOf(player)}}">
+        <img ng-src='img/{{player.name | slug}}.jpg'>
         <div class="info">
           <h2>{{player.name}}</h2>
           <h3>Ability: {{player.ability}}</h3>
+          <h3>Winnings: {{player.winnings | currency}}</h3>
         </div>
       </a>
       <!-- end link -->
