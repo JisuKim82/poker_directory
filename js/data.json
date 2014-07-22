@@ -14,13 +14,13 @@
   {
     "name":"Phil Hellmuth",
     "winnings":"18175409",
-    "ability":"6",
+    "ability":"7",
     "bio":"Phillip Jerome Hellmuth, Jr. (born July 16, 1964) is an American professional poker player who has captured thirteen World Series of Poker bracelets. He is the winner of the Main Event of the 1989 World Series of Poker (WSOP) and the Main Event of the 2012 World Series of Poker Europe (WSOPE), and he is a member of the WSOP's Poker Hall of Fame. Hellmuth is also known for his temperamental \"poker brat\" personality."
   },
   {
     "name":"Daniel Negreanu",
     "winnings":"29750000",
-    "ability":"7",
+    "ability":"8",
     "bio":"Daniel Negreanu (born July 26, 1974) is a Canadian professional poker player who has won six World Series of Poker (WSOP) bracelets and two World Poker Tour (WPT) championship titles. Since his second place in the Big One For One Drop 2014 tournament, he is the biggest live tournament poker winner of all time, having accumulated over $29,750,000 in prize money. He was named the WSOP Player of the Year in 2004 and again 2013, making him the first player in WSOP history to win the accolade more than once, and also was the 2004-05 WPT Player of the Year."
   },
   {
@@ -32,13 +32,13 @@
   {
     "name":"Eugene Katchalov",
     "winnings":"8000000",
-    "ability":"7",
+    "ability":"6",
     "bio":"Eugene Katchalov is a American professional poker player raised in Brooklyn, New York since age 10. He currently ranks #63 on the Global poker index, and has been ranked as high as number two. He is also #1 on the all-time money list in Ukraine."
   },
   {
     "name":"Johnny Chan",
     "winnings":"20000000",
-    "ability":"8",
+    "ability":"9",
     "bio":"Johnny Chan is a Chinese-born American professional poker player. He has won 10 World Series of Poker bracelets, including the 1987 and 1988 World Series of Poker main events consecutively."
   },
   {
@@ -46,5 +46,17 @@
     "winnings":"5000000",
     "ability":"6",
     "bio":"Thomas Dwan Jr. is an American professional poker player who regularly plays online in the highest-stakes No-Limit Texas hold 'em and Pot-Limit Omaha games, primarily on Full Tilt Poker, where he plays under the screen name \"durrrr\"."
+  },
+  {
+    "name":"Viktor Blom",
+    "winnings":"3000000",
+    "ability":"6",
+    "bio":"Viktor Blom is a Swedish high stakes online poker player, best known by the online poker name Isildur1."
+  },
+  {
+    "name":"Vanessa Selbst",
+    "winnings":"10000000",
+    "ability":"7",
+    "bio":"Vanessa K. Selbst is an American professional poker player and the number two ranked poker player in the world by the Global Poker Index. She is also the only woman to have ever reached the #1 position."
   }
 ]
