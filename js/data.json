@@ -58,5 +58,17 @@
     "winnings":"10000000",
     "ability":"7",
     "bio":"Vanessa K. Selbst is an American professional poker player and the number two ranked poker player in the world by the Global Poker Index. She is also the only woman to have ever reached the #1 position."
+  },
+  {
+    "name":"Scott Seiver",
+    "winnings":"10772000",
+    "ability":"7",
+    "bio":"Scott Seiver is a professional poker player from Cold Spring Harbor, New York now residing in Las Vegas, Nevada who won the 2008 World Series of Poker $5,000 No Limit Hold'em event"
+  },
+  {
+    "name":"Jason Mercier",
+    "winnings":"7800000",
+    "ability":"7",
+    "bio":"Jason Mercier is an American professional poker player from Hollywood, Florida. He has won two World Series of Poker bracelets and one European Poker Tour title."
   }
 ]
